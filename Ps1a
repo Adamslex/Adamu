@@ -1,0 +1,6 @@
+#case 1 test
+X = eval(input('Enter your Annual salary:'))
+Y = float(input('Enter the percentage of your salary you want to save:'))
+Z = eval(input('Enter the amount of your dream house:'))
+print('you need to save for this month:',Z/(X*Y/100))
+
